@@ -8,3 +8,5 @@
 - **경력**
   - (${\textsf{\color{skyblue}2024. 09. 01.}}$ ~ ${\textsf{\color{skyblue}2025. 09. 15.}}$) **한국교원대학교 융합교육연구소 행정원** <sub>(2024. 9. 1. ~ 2025. 8. 31. **파트타임**)</sub>
   - (${\textsf{\color{crimson}2025. 10. 15.}}$ ~ ${\textsf{\color{crimson}2025. 12. 24.}}$) **고려대학교(세종) 교수학습정보센터 연구원**
+ 
+  - <span style="color:skyblue">2024. 09. 01.</span> ~ <span style="color:skyblue">2025. 09. 15.</span> 한국교원대학교 융합교육연구소 행정원 (2024. 9. 1. ~ 2025. 8. 31. 파트타임)
