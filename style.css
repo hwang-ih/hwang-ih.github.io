@@ -14,11 +14,6 @@ header {
 
 /* 중간 페이지 스타일 */
 main {
-    background-color: #f4f4f4; /* 연한 회색 */
-    min-height: 400px;        /* 최소 높이 설정 */
-    padding: 40px;
-    text-align: center;
-
     .container {
     display: flex;      /* 가로로 나열 */
     min-height: 400px;
