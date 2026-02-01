@@ -1,0 +1,29 @@
+/* 기본 여백 제거 */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* 헤더 스타일 */
+header {
+    background-color: #333; /* 진한 회색 */
+    color: white;           /* 글자색 흰색 */
+    padding: 20px;
+    text-align: center;
+}
+
+/* 중간 페이지 스타일 */
+main {
+    background-color: #f4f4f4; /* 연한 회색 */
+    min-height: 400px;        /* 최소 높이 설정 */
+    padding: 40px;
+    text-align: center;
+}
+
+/* 푸터 스타일 */
+footer {
+    background-color: #222; /* 헤더보다 더 진한 회색 */
+    color: #ccc;            /* 글자색 연회색 */
+    padding: 15px;
+    text-align: center;
+}
