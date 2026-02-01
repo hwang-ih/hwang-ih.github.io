@@ -46,3 +46,20 @@ footer {
     padding: 15px;
     text-align: center;
 }
+
+/* 화면 너비가 768px 이하일 때 적용되는 스타일 */
+@media (max-width: 768px) {
+    .flex-container {
+        flex-direction: column; /* 가로 배치를 세로 배치로 변경 */
+    }
+
+    .left-side, .right-side {
+        flex: none;    /* 기존의 비율 설정을 무시 */
+        width: 100%;   /* 너비를 화면 꽉 차게 설정 */
+        box-sizing: border-box; /* 패딩이 너비에 영향을 주지 않도록 설정 */
+    }
+
+    .intro {
+        padding: 20px 10px; /* 여백을 조금 줄여서 모바일에 최적화 */
+    }
+}
