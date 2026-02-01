@@ -12,24 +12,31 @@ header {
     text-align: center;
 }
 
-/* 중간 페이지 스타일 */
 main {
-    .container {
-    display: flex;      /* 가로로 나열 */
-    min-height: 400px;
-    }
+    display: block; /* 기본 블록 설정 */
+}
 
-    .left-side {
-        flex: 1;            /* 왼쪽 1만큼 차지 */
-        background-color: #e9ecef; /* 왼쪽 칸 색상 */
-        padding: 20px;
-    }
-    
-    .right-side {
-        flex: 3;            /* 오른쪽 3만큼 차지 (왼쪽보다 3배 넓음) */
-        background-color: #ffffff; /* 오른쪽 칸 색상 */
-        padding: 20px;
-    }
+.intro {
+    text-align: center;
+    padding: 30px;
+}
+
+/* 아래 두 영역을 담는 플렉스 박스 */
+.flex-container { 
+    display: flex; 
+    width: 100%;
+}
+
+.left-side {
+    flex: 1; 
+    background-color: #f1f3f5;
+    padding: 20px;
+}
+
+.right-side {
+    flex: 3;
+    background-color: #ffffff;
+    padding: 20px;
 }
 
 /* 푸터 스타일 */
