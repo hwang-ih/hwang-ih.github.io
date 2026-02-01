@@ -18,6 +18,23 @@ main {
     min-height: 400px;        /* 최소 높이 설정 */
     padding: 40px;
     text-align: center;
+
+    .container {
+    display: flex;      /* 가로로 나열 */
+    min-height: 400px;
+    }
+
+    .left-side {
+        flex: 1;            /* 왼쪽 1만큼 차지 */
+        background-color: #e9ecef; /* 왼쪽 칸 색상 */
+        padding: 20px;
+    }
+    
+    .right-side {
+        flex: 3;            /* 오른쪽 3만큼 차지 (왼쪽보다 3배 넓음) */
+        background-color: #ffffff; /* 오른쪽 칸 색상 */
+        padding: 20px;
+    }
 }
 
 /* 푸터 스타일 */
