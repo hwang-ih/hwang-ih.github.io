@@ -43,6 +43,7 @@ main {
     flex: 3;
     background-color: #e0faf5;
     padding: 20px;
+    line-height: 1.6;
 }
 
 /* 푸터 스타일 */
