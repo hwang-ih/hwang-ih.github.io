@@ -39,6 +39,12 @@ main {
     padding: 20px;
 }
 
+.right-side-blue {
+    flex: 3;
+    background-color: #e0faf5;
+    padding: 20px;
+}
+
 /* 푸터 스타일 */
 footer {
     background-color: #222; /* 헤더보다 더 진한 회색 */
@@ -53,7 +59,7 @@ footer {
         flex-direction: column; /* 가로 배치를 세로 배치로 변경 */
     }
 
-    .left-side, .right-side {
+    .left-side, .right-side, .right-side-blue {
         flex: none;    /* 기존의 비율 설정을 무시 */
         width: 100%;   /* 너비를 화면 꽉 차게 설정 */
         box-sizing: border-box; /* 패딩이 너비에 영향을 주지 않도록 설정 */
