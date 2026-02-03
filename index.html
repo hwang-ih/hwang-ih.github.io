@@ -54,16 +54,21 @@
                 <h3>저의 하루를 소개합니다.</h3>
                 <h3>(2월 1주) 목표: AI 에이전트 학습, 사회조사분석사 2급 준비</h3>
                 <h3>2월 2일, 월요일</h3>
-                <p><span style="color: navy; font-weight: bold;">오전</span></p>
-                <p>1) AI 에이전트 실습 환경 구축: Python, Ollama 등 설치</p>
-                <p>2) 사회조사분석사 2급 유튜브 문제풀이 수강: ~42분 9초</p>
-                <p><span style="color: navy; font-weight: bold;">오후</span></p>
-                <p>1) 깃허브 HTML: 개인 홈페이지 구축</p>
-                <p>2) 사회조사분석사 2급 유튜브 문제풀이 수강: ~1시간 37분 25초</p>
-                <p>3) AI 에이전트 실습: 랭체인의 기본</p>
-                <p><span style="color: navy; font-weight: bold;">비고</span></p>
-                <p>WORK TIME: 09:00~16:00</p>
-                <p> </p>
+                <button onclick="toggle()">열기/닫기</button>
+                
+                <div id="box" style="display:none;">
+                    
+                    <p><span style="color: navy; font-weight: bold;">오전</span></p>
+                    <p>1) AI 에이전트 실습 환경 구축: Python, Ollama 등 설치</p>
+                    <p>2) 사회조사분석사 2급 유튜브 문제풀이 수강: ~42분 9초</p>
+                    <p><span style="color: navy; font-weight: bold;">오후</span></p>
+                    <p>1) 깃허브 HTML: 개인 홈페이지 구축</p>
+                    <p>2) 사회조사분석사 2급 유튜브 문제풀이 수강: ~1시간 37분 25초</p>
+                    <p>3) AI 에이전트 실습: 랭체인의 기본</p>
+                    <p><span style="color: navy; font-weight: bold;">비고</span></p>
+                    <p>WORK TIME: 09:00~16:00</p>
+
+                </div>
                 
                 <h3>2월 3일, 화요일</h3>
                 <p><span style="color: navy; font-weight: bold;">오전</span></p>
@@ -77,6 +82,16 @@
                 <p><span style="color: gray; line-height: 2.0">
                     [주요 내용] (LCEL 체인) chain = prompt | llm | output_parser, 변수는 중괄호 {} 안에 지정, MessagesPlaceholder("chat_history")
                 </span></p>
+                <p><span style="color: navy; font-weight: bold;">오후</span></p>
+                <p>1) AI 에이전트 이론: 검색 증강 생성(RAG)</p>
+                <p><span style="color: gray; line-height: 2.0">
+                    [주요 내용] 임베딩은 단어나 문장을 벡터로 변환하는 과정이다. 벡터 저장소를 구축하고 검색을 수행하며 답변을 생성한다. 임베딩 모델로 bge-m3 등을 사용한다.
+                    랭체인을 이용해 LLM이 웹사이트와 PDF 등을 참조해서 답변하도록 만들 수 있다.
+                </span></p>
+                <p>2) 깃허브 HTML: 홈페이지 편집</p>
+                <p><span style="color: gray; line-height: 2.0">
+                    [주요 내용] button onclick 이벤트와 toggle() 함수를 활용하여 어제 작성한 내용을 숨김(기본값) 처리
+                </span></p>
             </div>
         </div>
 
@@ -87,18 +102,41 @@
 
             <div class="right-side-blue">
                 <h3>2월 2일, 월요일</h3>
-                <p><span style="color: navy; font-weight: bold;">눈이 많이 왔습니다.</span></p>
-                <p>오랜만에 공부를 하겠다고 책상에 앉았습니다.
-                난방이 잘 되어서 그런지, 땀이 조금 맺히네요.
-                잠시 산책을 좀 다녀오고 싶을 정도로 땀이 많이 납니다.</p>
-                <p></p>
-                <p>무엇을 해야 하는지, 무엇을 할 수 있을지 고민도 참 많았습니다.
-                지금 하고 있는 것은 AI 에이전트와 사회조사분석사 공부입니다.
-                원래 교육행정이 아닌 컴퓨터과학을 하기로 마음 먹었을 때에는, 사회조사분석사를 하지 않으려고 했습니다.
-                하지만 당장 계획된 시험을 잘 끝내는 것도 동기 부여에 좋을 것 같아서 그냥 보려고 합니다.</p>
-                <p></p>
-                <p>별 것 아닌 페이지이지만, 소소하게 기록해 두려고 합니다.
-                종종 확인해 주세요~!</p>
+                <button onclick="toggle()">열기/닫기</button>
+                
+                <div id="box" style="display:none;">
+                    <p><span style="color: navy; font-weight: bold;">눈이 많이 왔습니다.</span></p>
+                    <p>오랜만에 공부를 하겠다고 책상에 앉았습니다.
+                    난방이 잘 되어서 그런지, 땀이 조금 맺히네요.
+                    잠시 산책을 좀 다녀오고 싶을 정도로 땀이 많이 납니다.</p>
+                    <p></p>
+                    <p>무엇을 해야 하는지, 무엇을 할 수 있을지 고민도 참 많았습니다.
+                    지금 하고 있는 것은 AI 에이전트와 사회조사분석사 공부입니다.
+                    원래 교육행정이 아닌 컴퓨터과학을 하기로 마음 먹었을 때에는, 사회조사분석사를 하지 않으려고 했습니다.
+                    하지만 당장 계획된 시험을 잘 끝내는 것도 동기 부여에 좋을 것 같아서 그냥 보려고 합니다.</p>
+                    <p></p>
+                    <p>별 것 아닌 페이지이지만, 소소하게 기록해 두려고 합니다.
+                    종종 확인해 주세요~!</p>
+                </div>
+
+                <h3>2월 3일, 화요일</h3>
+                <p><span style="color:navy; font-weight: bold;">AI 에이전트가 어렵습니다.</span></p>
+                <p>
+                    AI 에이전트를 공부하겠다고 코드를 쳐다보는데, 이해하기가 마냥 쉽지만은 않습니다.
+                    맥북 자체만으로는 구동이 쉽지 않은 것 같아 내일부터는 OpenAI의 API를 활용해야 할 것 같습니다.
+                    사회조사분석사는 그리 유쾌하진 않아도 연구하려면 어느 정도 배경지식으로 필요할 것 같다는 생각이 들어요.
+                </p>
+                <p>
+                    어제에 이어서 오송호수공원을 걷고 왔습니다.
+                    오늘은 1시간 정도 걸었던 것 같습니다.
+                    근무할 때는 해를 잘 못 봤으니, 이렇게 비타민 D를 합성하는 것도 유쾌하더군요.^^
+                    어제보다 날도 좀 덜 추운 것 같아, 걸어다니기도 좋았습니다.
+                    호수가 눈과 얼음으로 하얗게 변해 있는 경치도 좋지만, 물이 흐르면 더 좋을 것 같습니다.
+                </p>
+                <p>
+                    재미있습니다. 조금 쉬엄쉬엄 걸어가면서도, 하는 동안 몰입해서 최선을 다하겠습니다!
+                </p>
+                
             </div>
         </div>
         
@@ -108,5 +146,12 @@
         <p>© 2026 Go Thru. All rights reserved.</p>
     </footer>
 
+    <script>
+    function toggle() {
+      const box = document.getElementById("box");
+      box.style.display = box.style.display === "none" ? "block" : "none";
+    }
+    </script>
+    
 </body>
 </html>
